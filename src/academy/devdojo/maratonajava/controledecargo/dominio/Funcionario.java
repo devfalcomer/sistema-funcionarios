@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.controledecargo.dominio;
 
-public class Funcionario {
+public abstract class Funcionario {
     private String nome;
     private double salarioBase;
     private Cargo cargo;
@@ -9,22 +9,6 @@ public class Funcionario {
         this.nome = nome;
         this.salarioBase = salarioBase;
         this.cargo = cargo;
-    }
-
-    @Override
-    public String toString() {
-        double salarioFinal = calcularSalarioFinal();
-
-        String status = (salarioFinal > 10000)
-                ? "Salário alto"
-                : "Salário dentro da média";
-
-        return "Nome: " + nome +
-                "\nCargo: " + cargo +
-                "\nSalário Base: " + salarioBase +
-                "\nSalário Final: " + salarioFinal +
-                "\n" + status +
-                "\n----------------------------";
     }
 
     public double calcularSalarioFinal(){
