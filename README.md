@@ -1,4 +1,4 @@
-# 📌 Controle de Cargo
+# Controle de Cargo
 
 Este projeto foi desenvolvido com o objetivo de reforçar conceitos fundamentais de Java e POO
 
@@ -6,14 +6,14 @@ O sistema simula o gerenciamento de funcionários e cargos, aplicando regras de 
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Java 21
 - Programação Orientada a Objetos (POO)
 
 ---
 
-## 📚 Conceitos aplicados
+## Conceitos aplicados
 
 - Encapsulamento
 - Herança
@@ -23,7 +23,7 @@ O sistema simula o gerenciamento de funcionários e cargos, aplicando regras de 
 
 ---
 
-## 🏗 Estrutura do Projeto
+## Estrutura do Projeto
 
 controledecargo/
  ├── dominio/
@@ -32,7 +32,7 @@ controledecargo/
 
 ---
 
-## ▶️ Como executar o projeto
+## Como executar o projeto
 
 1. Clone o repositório:
    git clone https://github.com/seuusuario/controle-de-cargo.git
